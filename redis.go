@@ -10,7 +10,7 @@ import (
 func configureRedis() *redis.Client {
 	client := redis.NewClient(&redis.Options{
 		Addr:     redisHost,
-		Password: "",
+		Password: "mypassword",
 		DB:       0,
 	})
 
