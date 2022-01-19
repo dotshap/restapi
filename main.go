@@ -24,6 +24,7 @@ func init() {
 }
 
 func handleMaxIp() {
+	fmt.Println("testing comit")
 	ip := getMaxIP()
 	if ip == "" {
 		intIp := ip2int(net.ParseIP("10.0.0.1"))
